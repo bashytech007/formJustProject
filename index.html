@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <form action="Submit" class="wrapper">
+      <h1 class="form-title">Contact Form</h1>
+
+      <div class="formDiv">
+
+        <div class="input_field">
+          <label>Name:</label>
+          <input type="text" class="input" placeholder="Enter your Username" />
+        </div> 
+
+        <div class="input_field">
+          <label>Username:</label>
+          <input type="text" class="input" placeholder="Enter your name" />
+        </div>
+
+        
+        <div class="input_field">
+          <label>Password:</label>
+          <input
+            type="password"
+            class="input"
+            placeholder="Enter your Password"
+          />
+        </div>
+        <div class="input_field">
+          <label>Re-type Password:</label>
+          <input
+            type="password"
+            class="input"
+            placeholder="Enter your Password again"
+          />
+        </div>
+        <div class="input_field">
+          <label class="radio">Gender:</label>
+             <input type="radio" class="input" /><span>Male </span>
+            <input class="input" type="radio"  /><span>Female  </span>
+        </div>
+        <div class="input_field">
+          <label class="check">Techie Skills:</label>
+             <input type="checkbox" class="input" /><span>HTML </span>
+            <input type="checkbox" class="input" /><span>CSS</span>
+            <input type="checkbox" class="input" /><span>Javascript </span>
+        </div>
+        <div class="input_field">
+          <label>Phone Number:</label>
+          <input type="text" class="input" />
+        </div>
+        <div class="input_field">
+          <label>Email:</label>
+          <input type="password" value="password" class="input" />
+        </div>
+        <div class="input_field">
+          <label>College:</label>
+          
+            <div class="custom_select">
+                <select name="colleges">
+          <option value="select">Select a College</option>
+            <option value="Science">Science</option>
+            <option value="law">law</option>
+            <option value="Art">Art</option>
+            <option value="Medicine">Medicine</option></select>
+            </div>
+        </div>
+        <div class="input_field">
+          <input type="button" value="Submit" class="btn" />
+        </div>
+      </div>
+    </form>
+  </body>
+</html>
