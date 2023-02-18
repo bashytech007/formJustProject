@@ -84,7 +84,7 @@ span{
 }
 .wrapper .formDiv .input_field .custom_select{
   position:relative;
-  width:50%;
+  width:49%;
   height: 35px;
   /* border:2px solid black; */
 }
